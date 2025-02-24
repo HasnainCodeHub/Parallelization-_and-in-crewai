@@ -1,0 +1,21 @@
+[project]
+name = "pr1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "hasnainbusiness204@gmail.com", email = "163559600+Hasnain-Software-Developer@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "crewai>=0.102.0",
+]
+
+[project.scripts]
+pr1 = "pr1:main"
+has = "pr1.hello:main"
+hasplot = "pr1.hello:plot"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
