@@ -3,7 +3,7 @@ from crewai.flow.flow import Flow, start, listen, and_
 from litellm import completion
 
 class AndAggregationFlow(Flow):
-    model = "gemini/gemini-2.0-flash-exp"
+    model = "gemini/gemini-2.0-flash"
 
     @start()
     def generate_slogan(self):
